@@ -12,10 +12,7 @@ variable "sg_name" {
     type = string            #mandatory 
 }
 
-variable "sg_description" {
-    type = string
-    default = ""          #optional
-}
+ 
 
 variable "vpc_id" {
     type = string
