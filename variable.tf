@@ -24,7 +24,7 @@ variable "vpc_id" {
 
 variable "sg_description" {
     type = string
-    default = {}          #optional
+    default = ""         #optional
 }
 
 variable "sg_tags" {
